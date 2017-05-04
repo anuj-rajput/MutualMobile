@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDependancies.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) AppDependancies *dependancies;
 
 @end
 
@@ -16,7 +19,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    AppDependancies *dependancies = [[AppDependancies alloc] init];
+    self.dependancies = dependancies;
+    
+    [self.dependancies installRooViewControllerIntoWindow:self.window];
+    
     return YES;
 }
 

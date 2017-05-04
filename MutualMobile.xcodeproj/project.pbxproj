@@ -9,11 +9,30 @@
 /* Begin PBXBuildFile section */
 		28F698B91EBB830D001E3C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F698B81EBB830D001E3C27 /* main.m */; };
 		28F698BC1EBB830D001E3C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F698BB1EBB830D001E3C27 /* AppDelegate.m */; };
-		28F698BF1EBB830D001E3C27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F698BE1EBB830D001E3C27 /* ViewController.m */; };
 		28F698C21EBB830D001E3C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F698C01EBB830D001E3C27 /* Main.storyboard */; };
 		28F698C41EBB830D001E3C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F698C31EBB830D001E3C27 /* Assets.xcassets */; };
 		28F698C71EBB830D001E3C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F698C51EBB830D001E3C27 /* LaunchScreen.storyboard */; };
 		28F698D21EBB830D001E3C27 /* MutualMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F698D11EBB830D001E3C27 /* MutualMobileTests.m */; };
+		28F699531EBB8DFE001E3C27 /* DetailAPIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699241EBB8DFE001E3C27 /* DetailAPIDataManager.m */; };
+		28F699541EBB8DFE001E3C27 /* DetailLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699271EBB8DFE001E3C27 /* DetailLocalDataManager.m */; };
+		28F699551EBB8DFE001E3C27 /* DetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6992A1EBB8DFE001E3C27 /* DetailInteractor.m */; };
+		28F699561EBB8DFE001E3C27 /* DetailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6992C1EBB8DFE001E3C27 /* DetailItem.m */; };
+		28F699571EBB8DFE001E3C27 /* DetailPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699321EBB8DFE001E3C27 /* DetailPresenter.m */; };
+		28F699581EBB8DFE001E3C27 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699351EBB8DFE001E3C27 /* DetailViewController.m */; };
+		28F699591EBB8DFE001E3C27 /* DetailWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699381EBB8DFE001E3C27 /* DetailWireFrame.m */; };
+		28F6995A1EBB8DFE001E3C27 /* ListAPIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6993E1EBB8DFE001E3C27 /* ListAPIDataManager.m */; };
+		28F6995B1EBB8DFE001E3C27 /* ListLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699411EBB8DFE001E3C27 /* ListLocalDataManager.m */; };
+		28F6995C1EBB8DFE001E3C27 /* ListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699441EBB8DFE001E3C27 /* ListInteractor.m */; };
+		28F6995D1EBB8DFE001E3C27 /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699461EBB8DFE001E3C27 /* ListItem.m */; };
+		28F6995E1EBB8DFE001E3C27 /* ListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6994C1EBB8DFE001E3C27 /* ListPresenter.m */; };
+		28F6995F1EBB8DFE001E3C27 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6994F1EBB8DFE001E3C27 /* ListViewController.m */; };
+		28F699601EBB8DFE001E3C27 /* ListWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699521EBB8DFE001E3C27 /* ListWireFrame.m */; };
+		28F699641EBB8E57001E3C27 /* AppDependancies.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699631EBB8E57001E3C27 /* AppDependancies.m */; };
+		28F699681EBB8F33001E3C27 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F699671EBB8F33001E3C27 /* Photo.m */; };
+		28F6996C1EBB9185001E3C27 /* RootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6996B1EBB9185001E3C27 /* RootWireframe.m */; };
+		28F6996F1EBBA4F2001E3C27 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6996E1EBBA4F2001E3C27 /* BaseModel.m */; };
+		66BDA416379E5D8D8417DEC7 /* libPods-MutualMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5577A1F5EA73285B20663D31 /* libPods-MutualMobile.a */; };
+		7E7F0B3971972C1D89ED6476 /* libPods-MutualMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62134A494E76BA70FABA4 /* libPods-MutualMobileTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +50,6 @@
 		28F698B81EBB830D001E3C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28F698BA1EBB830D001E3C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28F698BB1EBB830D001E3C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28F698BD1EBB830D001E3C27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28F698BE1EBB830D001E3C27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		28F698C11EBB830D001E3C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F698C31EBB830D001E3C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F698C61EBB830D001E3C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +57,50 @@
 		28F698CD1EBB830D001E3C27 /* MutualMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutualMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F698D11EBB830D001E3C27 /* MutualMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutualMobileTests.m; sourceTree = "<group>"; };
 		28F698D31EBB830D001E3C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F699231EBB8DFE001E3C27 /* DetailAPIDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAPIDataManager.h; sourceTree = "<group>"; };
+		28F699241EBB8DFE001E3C27 /* DetailAPIDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAPIDataManager.m; sourceTree = "<group>"; };
+		28F699261EBB8DFE001E3C27 /* DetailLocalDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailLocalDataManager.h; sourceTree = "<group>"; };
+		28F699271EBB8DFE001E3C27 /* DetailLocalDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailLocalDataManager.m; sourceTree = "<group>"; };
+		28F699291EBB8DFE001E3C27 /* DetailInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInteractor.h; sourceTree = "<group>"; };
+		28F6992A1EBB8DFE001E3C27 /* DetailInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInteractor.m; sourceTree = "<group>"; };
+		28F6992B1EBB8DFE001E3C27 /* DetailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailItem.h; sourceTree = "<group>"; };
+		28F6992C1EBB8DFE001E3C27 /* DetailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailItem.m; sourceTree = "<group>"; };
+		28F6992E1EBB8DFE001E3C27 /* DetailProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailProtocols.h; sourceTree = "<group>"; };
+		28F699311EBB8DFE001E3C27 /* DetailPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPresenter.h; sourceTree = "<group>"; };
+		28F699321EBB8DFE001E3C27 /* DetailPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPresenter.m; sourceTree = "<group>"; };
+		28F699341EBB8DFE001E3C27 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		28F699351EBB8DFE001E3C27 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		28F699371EBB8DFE001E3C27 /* DetailWireFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWireFrame.h; sourceTree = "<group>"; };
+		28F699381EBB8DFE001E3C27 /* DetailWireFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWireFrame.m; sourceTree = "<group>"; };
+		28F6993D1EBB8DFE001E3C27 /* ListAPIDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAPIDataManager.h; sourceTree = "<group>"; };
+		28F6993E1EBB8DFE001E3C27 /* ListAPIDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListAPIDataManager.m; sourceTree = "<group>"; };
+		28F699401EBB8DFE001E3C27 /* ListLocalDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListLocalDataManager.h; sourceTree = "<group>"; };
+		28F699411EBB8DFE001E3C27 /* ListLocalDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListLocalDataManager.m; sourceTree = "<group>"; };
+		28F699431EBB8DFE001E3C27 /* ListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInteractor.h; sourceTree = "<group>"; };
+		28F699441EBB8DFE001E3C27 /* ListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListInteractor.m; sourceTree = "<group>"; };
+		28F699451EBB8DFE001E3C27 /* ListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
+		28F699461EBB8DFE001E3C27 /* ListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
+		28F699481EBB8DFE001E3C27 /* ListProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListProtocols.h; sourceTree = "<group>"; };
+		28F6994B1EBB8DFE001E3C27 /* ListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPresenter.h; sourceTree = "<group>"; };
+		28F6994C1EBB8DFE001E3C27 /* ListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPresenter.m; sourceTree = "<group>"; };
+		28F6994E1EBB8DFE001E3C27 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		28F6994F1EBB8DFE001E3C27 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		28F699511EBB8DFE001E3C27 /* ListWireFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListWireFrame.h; sourceTree = "<group>"; };
+		28F699521EBB8DFE001E3C27 /* ListWireFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListWireFrame.m; sourceTree = "<group>"; };
+		28F699621EBB8E57001E3C27 /* AppDependancies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDependancies.h; sourceTree = "<group>"; };
+		28F699631EBB8E57001E3C27 /* AppDependancies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDependancies.m; sourceTree = "<group>"; };
+		28F699661EBB8F33001E3C27 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		28F699671EBB8F33001E3C27 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		28F6996A1EBB9185001E3C27 /* RootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWireframe.h; sourceTree = "<group>"; };
+		28F6996B1EBB9185001E3C27 /* RootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWireframe.m; sourceTree = "<group>"; };
+		28F6996D1EBBA4F2001E3C27 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		28F6996E1EBBA4F2001E3C27 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		366E96A9A15EF1879D14AB02 /* Pods-MutualMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutualMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MutualMobile/Pods-MutualMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		5577A1F5EA73285B20663D31 /* libPods-MutualMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MutualMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED62134A494E76BA70FABA4 /* libPods-MutualMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MutualMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC89A97D5FE3E4EF8FB148E /* Pods-MutualMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutualMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MutualMobileTests/Pods-MutualMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB373D9A1FC6EF0713E82BB7 /* Pods-MutualMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutualMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MutualMobileTests/Pods-MutualMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1FC125FC560662C6B1B7DD4 /* Pods-MutualMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutualMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-MutualMobile/Pods-MutualMobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BDA416379E5D8D8417DEC7 /* libPods-MutualMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7F0B3971972C1D89ED6476 /* libPods-MutualMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +129,8 @@
 				28F698B61EBB830D001E3C27 /* MutualMobile */,
 				28F698D01EBB830D001E3C27 /* MutualMobileTests */,
 				28F698B51EBB830D001E3C27 /* Products */,
+				AE62E13DB6D489924F8991BB /* Pods */,
+				747BA4050DCE9F0438B61554 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +146,15 @@
 		28F698B61EBB830D001E3C27 /* MutualMobile */ = {
 			isa = PBXGroup;
 			children = (
+				28F699611EBB8E06001E3C27 /* Common */,
+				28F6991E1EBB8DFE001E3C27 /* Modules */,
 				28F698BA1EBB830D001E3C27 /* AppDelegate.h */,
 				28F698BB1EBB830D001E3C27 /* AppDelegate.m */,
-				28F698BD1EBB830D001E3C27 /* ViewController.h */,
-				28F698BE1EBB830D001E3C27 /* ViewController.m */,
+				28F699621EBB8E57001E3C27 /* AppDependancies.h */,
+				28F699631EBB8E57001E3C27 /* AppDependancies.m */,
 				28F698C01EBB830D001E3C27 /* Main.storyboard */,
 				28F698C31EBB830D001E3C27 /* Assets.xcassets */,
 				28F698C51EBB830D001E3C27 /* LaunchScreen.storyboard */,
-				28F698C81EBB830D001E3C27 /* Info.plist */,
 				28F698B71EBB830D001E3C27 /* Supporting Files */,
 			);
 			path = MutualMobile;
@@ -97,6 +163,7 @@
 		28F698B71EBB830D001E3C27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28F698C81EBB830D001E3C27 /* Info.plist */,
 				28F698B81EBB830D001E3C27 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,6 +178,270 @@
 			path = MutualMobileTests;
 			sourceTree = "<group>";
 		};
+		28F6991E1EBB8DFE001E3C27 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				28F699391EBB8DFE001E3C27 /* List */,
+				28F6991F1EBB8DFE001E3C27 /* Detail */,
+			);
+			name = Modules;
+			path = Classes/Modules;
+			sourceTree = "<group>";
+		};
+		28F6991F1EBB8DFE001E3C27 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				28F699201EBB8DFE001E3C27 /* Application Logic */,
+				28F6992D1EBB8DFE001E3C27 /* Protocols */,
+				28F6992F1EBB8DFE001E3C27 /* User Interface */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		28F699201EBB8DFE001E3C27 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				28F699211EBB8DFE001E3C27 /* DataManager */,
+				28F699281EBB8DFE001E3C27 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		28F699211EBB8DFE001E3C27 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				28F699221EBB8DFE001E3C27 /* API */,
+				28F699251EBB8DFE001E3C27 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		28F699221EBB8DFE001E3C27 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				28F699231EBB8DFE001E3C27 /* DetailAPIDataManager.h */,
+				28F699241EBB8DFE001E3C27 /* DetailAPIDataManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		28F699251EBB8DFE001E3C27 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				28F699261EBB8DFE001E3C27 /* DetailLocalDataManager.h */,
+				28F699271EBB8DFE001E3C27 /* DetailLocalDataManager.m */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		28F699281EBB8DFE001E3C27 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				28F699291EBB8DFE001E3C27 /* DetailInteractor.h */,
+				28F6992A1EBB8DFE001E3C27 /* DetailInteractor.m */,
+				28F6992B1EBB8DFE001E3C27 /* DetailItem.h */,
+				28F6992C1EBB8DFE001E3C27 /* DetailItem.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		28F6992D1EBB8DFE001E3C27 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				28F6992E1EBB8DFE001E3C27 /* DetailProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		28F6992F1EBB8DFE001E3C27 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				28F699301EBB8DFE001E3C27 /* Presenter */,
+				28F699331EBB8DFE001E3C27 /* View */,
+				28F699361EBB8DFE001E3C27 /* WireFrame */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		28F699301EBB8DFE001E3C27 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				28F699311EBB8DFE001E3C27 /* DetailPresenter.h */,
+				28F699321EBB8DFE001E3C27 /* DetailPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		28F699331EBB8DFE001E3C27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28F699341EBB8DFE001E3C27 /* DetailViewController.h */,
+				28F699351EBB8DFE001E3C27 /* DetailViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28F699361EBB8DFE001E3C27 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				28F699371EBB8DFE001E3C27 /* DetailWireFrame.h */,
+				28F699381EBB8DFE001E3C27 /* DetailWireFrame.m */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		28F699391EBB8DFE001E3C27 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				28F6993A1EBB8DFE001E3C27 /* Application Logic */,
+				28F699471EBB8DFE001E3C27 /* Protocols */,
+				28F699491EBB8DFE001E3C27 /* User Interface */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		28F6993A1EBB8DFE001E3C27 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				28F6993B1EBB8DFE001E3C27 /* DataManager */,
+				28F699421EBB8DFE001E3C27 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		28F6993B1EBB8DFE001E3C27 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				28F6993C1EBB8DFE001E3C27 /* API */,
+				28F6993F1EBB8DFE001E3C27 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		28F6993C1EBB8DFE001E3C27 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				28F6993D1EBB8DFE001E3C27 /* ListAPIDataManager.h */,
+				28F6993E1EBB8DFE001E3C27 /* ListAPIDataManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		28F6993F1EBB8DFE001E3C27 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				28F699401EBB8DFE001E3C27 /* ListLocalDataManager.h */,
+				28F699411EBB8DFE001E3C27 /* ListLocalDataManager.m */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		28F699421EBB8DFE001E3C27 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				28F699431EBB8DFE001E3C27 /* ListInteractor.h */,
+				28F699441EBB8DFE001E3C27 /* ListInteractor.m */,
+				28F699451EBB8DFE001E3C27 /* ListItem.h */,
+				28F699461EBB8DFE001E3C27 /* ListItem.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		28F699471EBB8DFE001E3C27 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				28F699481EBB8DFE001E3C27 /* ListProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		28F699491EBB8DFE001E3C27 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				28F6994A1EBB8DFE001E3C27 /* Presenter */,
+				28F6994D1EBB8DFE001E3C27 /* View */,
+				28F699501EBB8DFE001E3C27 /* WireFrame */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		28F6994A1EBB8DFE001E3C27 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				28F6994B1EBB8DFE001E3C27 /* ListPresenter.h */,
+				28F6994C1EBB8DFE001E3C27 /* ListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		28F6994D1EBB8DFE001E3C27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28F6994E1EBB8DFE001E3C27 /* ListViewController.h */,
+				28F6994F1EBB8DFE001E3C27 /* ListViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28F699501EBB8DFE001E3C27 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				28F699511EBB8DFE001E3C27 /* ListWireFrame.h */,
+				28F699521EBB8DFE001E3C27 /* ListWireFrame.m */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		28F699611EBB8E06001E3C27 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				28F699691EBB9170001E3C27 /* Wireframe */,
+				28F699651EBB8F1E001E3C27 /* Models */,
+			);
+			name = Common;
+			path = Classes/Common;
+			sourceTree = "<group>";
+		};
+		28F699651EBB8F1E001E3C27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28F6996D1EBBA4F2001E3C27 /* BaseModel.h */,
+				28F6996E1EBBA4F2001E3C27 /* BaseModel.m */,
+				28F699661EBB8F33001E3C27 /* Photo.h */,
+				28F699671EBB8F33001E3C27 /* Photo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28F699691EBB9170001E3C27 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				28F6996A1EBB9185001E3C27 /* RootWireframe.h */,
+				28F6996B1EBB9185001E3C27 /* RootWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		747BA4050DCE9F0438B61554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5577A1F5EA73285B20663D31 /* libPods-MutualMobile.a */,
+				6ED62134A494E76BA70FABA4 /* libPods-MutualMobileTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE62E13DB6D489924F8991BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366E96A9A15EF1879D14AB02 /* Pods-MutualMobile.debug.xcconfig */,
+				E1FC125FC560662C6B1B7DD4 /* Pods-MutualMobile.release.xcconfig */,
+				7AC89A97D5FE3E4EF8FB148E /* Pods-MutualMobileTests.debug.xcconfig */,
+				DB373D9A1FC6EF0713E82BB7 /* Pods-MutualMobileTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +449,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F698D61EBB830D001E3C27 /* Build configuration list for PBXNativeTarget "MutualMobile" */;
 			buildPhases = (
+				4276E8954981139051C0BAB9 /* [CP] Check Pods Manifest.lock */,
 				28F698B01EBB830D001E3C27 /* Sources */,
 				28F698B11EBB830D001E3C27 /* Frameworks */,
 				28F698B21EBB830D001E3C27 /* Resources */,
+				22B3D33C40BB46E67D97010A /* [CP] Embed Pods Frameworks */,
+				7CA64ABBB6727E34797D0121 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +469,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F698D91EBB830D001E3C27 /* Build configuration list for PBXNativeTarget "MutualMobileTests" */;
 			buildPhases = (
+				95E064EC611E983FD6956D6A /* [CP] Check Pods Manifest.lock */,
 				28F698C91EBB830D001E3C27 /* Sources */,
 				28F698CA1EBB830D001E3C27 /* Frameworks */,
 				28F698CB1EBB830D001E3C27 /* Resources */,
+				2843EB60A74FE871F3E5CDFC /* [CP] Embed Pods Frameworks */,
+				174748BCCF4DA79A082745DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,14 +547,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		174748BCCF4DA79A082745DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MutualMobileTests/Pods-MutualMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22B3D33C40BB46E67D97010A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MutualMobile/Pods-MutualMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2843EB60A74FE871F3E5CDFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MutualMobileTests/Pods-MutualMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4276E8954981139051C0BAB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA64ABBB6727E34797D0121 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MutualMobile/Pods-MutualMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E064EC611E983FD6956D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28F698B01EBB830D001E3C27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F698BF1EBB830D001E3C27 /* ViewController.m in Sources */,
+				28F699541EBB8DFE001E3C27 /* DetailLocalDataManager.m in Sources */,
+				28F699561EBB8DFE001E3C27 /* DetailItem.m in Sources */,
+				28F699581EBB8DFE001E3C27 /* DetailViewController.m in Sources */,
+				28F699591EBB8DFE001E3C27 /* DetailWireFrame.m in Sources */,
+				28F699551EBB8DFE001E3C27 /* DetailInteractor.m in Sources */,
+				28F6995E1EBB8DFE001E3C27 /* ListPresenter.m in Sources */,
 				28F698BC1EBB830D001E3C27 /* AppDelegate.m in Sources */,
+				28F699601EBB8DFE001E3C27 /* ListWireFrame.m in Sources */,
 				28F698B91EBB830D001E3C27 /* main.m in Sources */,
+				28F6995C1EBB8DFE001E3C27 /* ListInteractor.m in Sources */,
+				28F6995F1EBB8DFE001E3C27 /* ListViewController.m in Sources */,
+				28F6996C1EBB9185001E3C27 /* RootWireframe.m in Sources */,
+				28F699531EBB8DFE001E3C27 /* DetailAPIDataManager.m in Sources */,
+				28F699681EBB8F33001E3C27 /* Photo.m in Sources */,
+				28F6995D1EBB8DFE001E3C27 /* ListItem.m in Sources */,
+				28F699641EBB8E57001E3C27 /* AppDependancies.m in Sources */,
+				28F6995B1EBB8DFE001E3C27 /* ListLocalDataManager.m in Sources */,
+				28F6995A1EBB8DFE001E3C27 /* ListAPIDataManager.m in Sources */,
+				28F6996F1EBBA4F2001E3C27 /* BaseModel.m in Sources */,
+				28F699571EBB8DFE001E3C27 /* DetailPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +798,7 @@
 		};
 		28F698D71EBB830D001E3C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366E96A9A15EF1879D14AB02 /* Pods-MutualMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7J6K4B3S7P;
@@ -363,6 +811,7 @@
 		};
 		28F698D81EBB830D001E3C27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FC125FC560662C6B1B7DD4 /* Pods-MutualMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7J6K4B3S7P;
@@ -375,6 +824,7 @@
 		};
 		28F698DA1EBB830D001E3C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC89A97D5FE3E4EF8FB148E /* Pods-MutualMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 7J6K4B3S7P;
@@ -388,6 +838,7 @@
 		};
 		28F698DB1EBB830D001E3C27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB373D9A1FC6EF0713E82BB7 /* Pods-MutualMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 7J6K4B3S7P;
@@ -418,6 +869,7 @@
 				28F698D81EBB830D001E3C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28F698D91EBB830D001E3C27 /* Build configuration list for PBXNativeTarget "MutualMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +878,7 @@
 				28F698DB1EBB830D001E3C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
