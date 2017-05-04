@@ -14,9 +14,15 @@
 #import "DetailInteractor.h"
 #import "DetailPresenter.h"
 #import "DetailWireFrame.h"
+#import "RootWireframe.h"
+#import "ListWireFrame.h"
 #import <UIKit/UIKit.h>
 
 @interface DetailWireFrame : NSObject <DetailWireFrameProtocol>
+
+@property (nonatomic, strong) RootWireframe *rootWireframe;
+@property (nonatomic, strong) ListWireFrame *listWireframe;
+@property (nonatomic, strong) DetailPresenter *detailPresenter;
 
 - (void)presentDetailInterfaceFromViewController:(UIViewController *)viewController;
 - (void)popDetailInterface;

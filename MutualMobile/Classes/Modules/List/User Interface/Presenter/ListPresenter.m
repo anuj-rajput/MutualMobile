@@ -7,6 +7,8 @@
 //
 
 #import "ListPresenter.h"
+#import "ListInteractor.h"
+#import "ListWireFrame.h"
 
 @implementation ListPresenter
 

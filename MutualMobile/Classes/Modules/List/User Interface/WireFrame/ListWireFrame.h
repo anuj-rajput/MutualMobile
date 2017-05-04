@@ -25,5 +25,6 @@
 
 - (void)presentListInterfaceFromWindow:(UIWindow *)window;
 - (void)presentDetailInterface;
+- (void)showDetailViewController:(UIViewController *)detailViewController;
 
 @end

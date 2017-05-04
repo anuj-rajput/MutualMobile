@@ -10,4 +10,10 @@
 
 @interface DetailItem : NSObject
 
+@property (nonatomic, readonly, copy) NSString *title;
+@property (nonatomic, readonly, copy) NSURL *url;
+
++ (instancetype)photoTitle:(NSString *)title url:(NSURL *)url;
+
+
 @end

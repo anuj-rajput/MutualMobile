@@ -17,14 +17,15 @@
 @protocol DetailAPIDataManagerInputProtocol;
 
 @class DetailWireFrame;
+@class Photo;
 
 // Defines the public interface that something else can use to drive the user interface
 @protocol DetailViewProtocol
 @required
 @property (nonatomic, strong) id <DetailPresenterProtocol> presenter;
-/**
- * Add here your methods for communication PRESENTER -> VIEWCONTROLLER
- */
+
+- (void)setPhotoItem:(Photo *)photoItem;
+
 @end
 
 @protocol DetailWireFrameProtocol
@@ -42,9 +43,9 @@
 @end
 
 @protocol DetailInteractorOutputProtocol
-/**
- * Add here your methods for communication INTERACTOR -> PRESENTER
- */
+
+- (void)showPhotoItem:(Photo *)photoItem;
+
 @end
 
 @protocol DetailInteractorInputProtocol

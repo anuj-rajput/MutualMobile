@@ -10,4 +10,8 @@
 
 @implementation DetailInteractor
 
+- (void)showPhotoItem:(id)item {
+    [self.presenter showPhotoItem:item];
+}
+
 @end

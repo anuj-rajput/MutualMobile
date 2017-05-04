@@ -9,6 +9,12 @@
 #import "DetailPresenter.h"
 #import "DetailWireframe.h"
 
+@class Photo;
+
 @implementation DetailPresenter
+
+- (void)showPhotoItem:(Photo *)photoItem {
+    [self.userInterface setPhotoItem:photoItem];
+}
 
 @end
