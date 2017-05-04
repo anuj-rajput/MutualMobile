@@ -17,6 +17,7 @@
 @protocol ListAPIDataManagerInputProtocol;
 
 @class ListWireFrame;
+@class Photo;
 
 // Defines the public interface that something else can use to drive the user interface
 @protocol ListViewProtocol
@@ -38,6 +39,7 @@
 @protocol ListPresenterProtocol
 @required
 - (void)searchForPhotos:(NSString *)searchText;
+- (void)photoTapped:(Photo *)photoItem;
 
 @end
 
@@ -54,6 +56,7 @@
 @property (nonatomic, strong) id <ListLocalDataManagerInputProtocol> localDataManager;
 
 - (void)searchPhotos:(NSString *)searchText;
+- (void)detailForPhotoItem:(Photo *)photoItem;
 
 @end
 

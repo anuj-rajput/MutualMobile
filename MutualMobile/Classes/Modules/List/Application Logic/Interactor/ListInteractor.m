@@ -35,5 +35,8 @@
     }];
 }
 
+- (void)detailForPhotoItem:(Photo *)photoItem {
+    // TODO: Presenter asked Interactor for Photo Item detail. Set
+}
 
 @end

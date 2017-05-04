@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MutualMobile/Classes/Modules/List/User Interface/Presenter/ListPresenter.m"
-            timestampString = "515625001.072767"
+            filePath = "MutualMobile/Classes/Modules/List/User Interface/View/ListViewController.m"
+            timestampString = "515628872.434828"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "-searchForPhotos:"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-searchBarSearchButtonClicked:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MutualMobile/Classes/Modules/List/User Interface/View/ListViewController.m"
-            timestampString = "515625020.410344"
+            filePath = "MutualMobile/Classes/Modules/List/User Interface/Presenter/ListPresenter.m"
+            timestampString = "515629000.778155"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "-searchBarSearchButtonClicked:"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-searchForPhotos:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

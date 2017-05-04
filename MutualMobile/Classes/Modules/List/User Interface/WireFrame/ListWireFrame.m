@@ -26,6 +26,17 @@ static NSString *ListViewControllerIdentifier = @"ListViewController";
     [self.rootWireframe displayRootViewController:listViewController inWindow:window];
 }
 
+- (void)showDetailViewController:(UIViewController *)detailViewController {
+    UINavigationController *navigationController = [self navigationControllerFromWindow:[[[UIApplication sharedApplication] delegate] window]];
+    [navigationController pushViewController:detailViewController animated:YES];
+}
+
+- (UINavigationController *)navigationControllerFromWindow:(UIWindow *)window {
+    UINavigationController *navigationController = (UINavigationController *)[window rootViewController];
+    return navigationController;
+}
+
+
 - (void)presentDetailInterface {
     [self.detailWireframe presentDetailInterfaceFromViewController:self.listViewController];
 }

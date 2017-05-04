@@ -66,7 +66,8 @@ static NSString * const cellIdentifier = @"photoCell";
 
 // MARK: UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // TODO: Navigate to DetailViewController
+    // Navigate to DetailViewController with Photo object
+    [self.presenter photoTapped:self.photoItems[indexPath.row]];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
