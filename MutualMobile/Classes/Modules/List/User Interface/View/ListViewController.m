@@ -36,7 +36,8 @@ static NSString * const cellIdentifier = @"photoCell";
 
 - (void)configureView {
     self.title = @"Search Photos";
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.strongTableView.rowHeight = UITableViewAutomaticDimension;
+    [self.strongTableView registerClass:UITableViewCell.class forCellReuseIdentifier:cellIdentifier];
 }
 
 - (void)reloadItems {

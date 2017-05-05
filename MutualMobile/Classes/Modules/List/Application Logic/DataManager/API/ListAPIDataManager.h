@@ -11,6 +11,4 @@
 
 @interface ListAPIDataManager : NSObject <ListAPIDataManagerInputProtocol>
 
-- (void)getPhotosWithSearchText:(NSString *)text completion:(void (^)(NSArray *photoItems))completion;
-
 @end

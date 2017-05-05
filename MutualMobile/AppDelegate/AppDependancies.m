@@ -46,7 +46,7 @@
     ListPresenter *listPresenter = [[ListPresenter alloc] init];
     ListLocalDataManager *listLocalDataManager = [[ListLocalDataManager alloc] init];
     ListAPIDataManager *listAPIDataManager = [[ListAPIDataManager alloc] init];
-    ListInteractor *listInteractor = [[ListInteractor alloc] init];
+    ListInteractor *listInteractor = [[ListInteractor alloc] initWithDataManager:listAPIDataManager];
     
     // Detail Module
     DetailWireFrame *detailWireframe = [[DetailWireFrame alloc] init];

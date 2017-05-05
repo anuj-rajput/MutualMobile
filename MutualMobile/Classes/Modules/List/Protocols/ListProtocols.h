@@ -68,9 +68,9 @@
 @end
 
 @protocol ListAPIDataManagerInputProtocol <ListDataManagerInputProtocol>
-/**
- * Add here your methods for communication INTERACTOR -> APIDATAMANAGER
- */
+
+- (void)getPhotosWithSearchText:(NSString *)text completion:(void (^)(NSArray *photoItems))completion;
+
 @end
 
 @protocol ListLocalDataManagerInputProtocol <ListDataManagerInputProtocol>

@@ -34,7 +34,6 @@
 
 - (void)searchForPhotos:(NSString *)searchText {
     [self.listInteractor searchPhotos:searchText];
-    // TODO: This doesn't get called from -[ListViewController searchBarSearchButtonClicked:]
 }
 
 - (void)photoTapped:(Photo *)photoItem {

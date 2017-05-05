@@ -20,14 +20,13 @@ static NSString *requestUrl = @"https://api.flickr.com/services/rest/";
     // Request parameters
     NSDictionary *parameters = @{
                                  @"method": @"flickr.photos.search",
-                                 @"api_key": @"a18800117e0e82dc9daf75877c62a8dd",
+                                 @"api_key": @"48a8e78ccfc4cda94e4fa1a3610385ac",
                                  @"text": searchText,
                                  @"extras": @"url_o",
                                  @"per_page": @50,
                                  @"page": @1,
                                  @"format": @"json",
-                                 @"nojsoncallback": @1,
-                                 @"api_sig": @"22e9d7aeff255580982631ad86bbefbe"
+                                 @"nojsoncallback": @1
                                  };
     
     // Make request to the API

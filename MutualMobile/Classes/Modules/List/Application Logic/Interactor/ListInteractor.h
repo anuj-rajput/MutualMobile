@@ -18,6 +18,6 @@
 @property (nonatomic, strong) id <ListAPIDataManagerInputProtocol> APIDataManager;
 @property (nonatomic, strong) id <ListLocalDataManagerInputProtocol> localDataManager;
 
-- (instancetype)initWithDataManager:(ListLocalDataManager *)dataManager;
+- (instancetype)initWithDataManager:(ListAPIDataManager *)apiDataManager;
 
 @end

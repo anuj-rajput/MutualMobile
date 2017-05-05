@@ -20,6 +20,7 @@ static NSString *ListViewControllerIdentifier = @"ListViewController";
 
 - (void)presentListInterfaceFromWindow:(UIWindow *)window {
     ListViewController *listViewController = [self listViewControllerFromStoryboard];
+    listViewController.presenter = self.listPresenter;
     self.listPresenter.userInterface = listViewController;
     self.listViewController = listViewController;
     

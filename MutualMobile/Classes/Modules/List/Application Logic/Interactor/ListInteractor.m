@@ -20,10 +20,10 @@
 
 @implementation ListInteractor
 
-- (instancetype)initWithDataManager:(ListLocalDataManager *)dataManager {
+- (instancetype)initWithDataManager:(ListAPIDataManager *)apiDataManager {
     self = [super init];
     if (self) {
-        self.dataManager = dataManager;
+        self.apiDataManager = apiDataManager;
     }
     return self;
 }
