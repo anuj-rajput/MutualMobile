@@ -75,6 +75,10 @@
     
     detailPresenter.detailInteractor = detailInteractor;
     detailPresenter.detailWireFrame = detailWireframe;
+    
+    detailWireframe.rootWireframe = rootWireframe;
+    detailWireframe.listWireframe = listWireframe;
+    detailWireframe.detailPresenter = detailPresenter;
 }
 
 - (void)installRooViewControllerIntoWindow:(id)window {

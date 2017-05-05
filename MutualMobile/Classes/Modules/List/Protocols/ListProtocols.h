@@ -31,9 +31,9 @@
 
 @protocol ListWireFrameProtocol
 @required
-/**
- * Add here your methods for communication PRESENTER -> WIREFRAME
- */
+
+//- (void)showDetailViewWithPhotoItem:(Photo *)photoItem;
+
 @end
 
 @protocol ListPresenterProtocol
@@ -46,6 +46,7 @@
 @protocol ListInteractorOutputProtocol
 
 - (void)listOfPhotos:(NSArray *)photos;
+- (void)detailPhotoItem:(Photo *)photoItem;
 
 @end
 

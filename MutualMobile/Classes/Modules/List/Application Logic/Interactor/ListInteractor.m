@@ -36,7 +36,8 @@
 }
 
 - (void)detailForPhotoItem:(Photo *)photoItem {
-    // TODO: Presenter asked Interactor for Photo Item detail. Set
+    // Presenter asked Interactor for Photo Item detail
+    [self.presenter detailPhotoItem:photoItem];
 }
 
 @end

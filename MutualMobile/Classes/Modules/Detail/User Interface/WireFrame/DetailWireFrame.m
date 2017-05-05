@@ -28,11 +28,6 @@ static NSString *DetailViewControllerIdentifier = @"DetailViewController";
     [self.listWireframe showDetailViewController:detailViewController];
 }
 
-- (void)popDetailInterface {
-  // TODO: Pop detail view controller from navigation stack
-}
-
-
 - (DetailViewController *)detailsControllerFromStoryboard {
     UIStoryboard *storyboard = [self mainStoryboard];
     DetailViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:DetailViewControllerIdentifier];

@@ -38,6 +38,9 @@
 
 - (void)photoTapped:(Photo *)photoItem {
     [self.listInteractor detailForPhotoItem:photoItem];
+    [self.listWireFrame presentDetailInterface];
+//    [self.listWireFrame showDetailViewWithPhotoItem:photoItem];
 }
+
 
 @end

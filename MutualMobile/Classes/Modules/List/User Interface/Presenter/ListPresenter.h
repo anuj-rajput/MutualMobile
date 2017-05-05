@@ -14,6 +14,6 @@
 @property (nonatomic, weak) UIViewController <ListViewProtocol> *userInterface;
 
 @property (nonatomic, strong) id <ListInteractorInputProtocol> listInteractor;
-@property (nonatomic, strong) id <ListWireFrameProtocol> listWireFrame;
+@property (nonatomic, strong) ListWireFrame *listWireFrame;
 
 @end

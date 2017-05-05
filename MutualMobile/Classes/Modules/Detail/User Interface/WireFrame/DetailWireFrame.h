@@ -18,6 +18,8 @@
 #import "ListWireFrame.h"
 #import <UIKit/UIKit.h>
 
+@class Photo;
+
 @interface DetailWireFrame : NSObject <DetailWireFrameProtocol>
 
 @property (nonatomic, strong) RootWireframe *rootWireframe;
@@ -25,6 +27,5 @@
 @property (nonatomic, strong) DetailPresenter *detailPresenter;
 
 - (void)presentDetailInterfaceFromViewController:(UIViewController *)viewController;
-- (void)popDetailInterface;
 
 @end

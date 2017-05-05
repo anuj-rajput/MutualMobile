@@ -67,6 +67,7 @@ static NSString * const cellIdentifier = @"photoCell";
 
 // MARK: UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     // Navigate to DetailViewController with Photo object
     [self.presenter photoTapped:self.photoItems[indexPath.row]];
 }

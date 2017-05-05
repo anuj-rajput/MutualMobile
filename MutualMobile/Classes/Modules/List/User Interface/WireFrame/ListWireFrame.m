@@ -27,6 +27,12 @@ static NSString *ListViewControllerIdentifier = @"ListViewController";
     [self.rootWireframe displayRootViewController:listViewController inWindow:window];
 }
 
+// TODO: Detail with Photo
+//- (void)showDetailViewWithPhotoItem:(Photo *)photoItem {
+//    UINavigationController *navigationController = [self navigationControllerFromWindow:[[[UIApplication sharedApplication] delegate] window]];
+//    [navigationController pushViewController:detailViewController animated:YES];
+//}
+
 - (void)showDetailViewController:(UIViewController *)detailViewController {
     UINavigationController *navigationController = [self navigationControllerFromWindow:[[[UIApplication sharedApplication] delegate] window]];
     [navigationController pushViewController:detailViewController animated:YES];
